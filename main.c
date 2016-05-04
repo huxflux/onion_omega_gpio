@@ -32,9 +32,9 @@ int main(int argc, char *argv[])
     }
 
     /* Turn off all leds */
-    gpio_set(17,1);
-    gpio_set(16,1);
-    gpio_set(15,1);
+    gpio_set(17, 1);
+    gpio_set(16, 1);
+    gpio_set(15, 1);
 
     gpio_close_all();
 
