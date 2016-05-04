@@ -1,0 +1,15 @@
+GPIO C-functions for Onion Omega 
+
+Copyright (C) 2016 Sildradassen Software
+
+GPIO functions written in C. Remember to open the GPIO first, then set the
+direction to whatever you need. The functions should be pretty straightforward
+to understand.
+
+You'll need the Expansion Dock and storage outside of the 16MB. Gcc needs about
+22MB.
+
+The main.c program is just for testing purposes. Chaotic leds.
+
+No `make` on the Onion Omega as of yet. Compile with
+`gcc main.c gpio.c -o chaos`. Execute it with `./chaos`
