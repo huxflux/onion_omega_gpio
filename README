@@ -9,7 +9,7 @@ to understand.
 You'll need the Expansion Dock and storage outside of the 16MB. Gcc needs about
 22MB.
 
-The main.c program is just for testing purposes. Chaotic leds.
+The main.c program is just for testing purposes. Chaotic LEDs.
 
 No `make` on the Onion Omega as of yet. Compile with
 `gcc main.c gpio.c -o chaos`. Execute with `./chaos`
