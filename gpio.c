@@ -143,7 +143,7 @@ int gpio_close_all()
     for (i = 0; i < GPIO_MAX_NUMBER; i++) {
         if (gpio_list[i] == 1) {
             gpio_close(i);
-            gpio_list[0] == 0;
+            gpio_list[0] = 0;
         }
     }
     return EXIT_SUCCESS;
