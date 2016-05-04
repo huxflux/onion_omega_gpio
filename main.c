@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
 
     /* blink leds randomly with random delay */
     while (counter > 0) {
-        gpio_set(random(15,17), random(0,1));
-        delay(random(0,random(MIN_DELAY_VALUE, MAX_DELAY_VALUE)));
+        gpio_set(random(15, 17), random(0, 1));
+        delay(random(0, random(MIN_DELAY_VALUE, MAX_DELAY_VALUE)));
         counter--;
     }
 
